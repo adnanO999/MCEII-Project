@@ -34,6 +34,11 @@ The video demonstrates our working robot yet it was the beginig. We needed to tu
 # MPU6050 Readings 
 To get the readings and plot them we collected the data using serial communication between arduino and python and accumulated them automatically in a CSV file. We could ploted them directly using matplotlib or seaborn however since we were using matlab for modeling the system dynamics we opted to keep all plots in matlab.
 
+## Serial Communication
+Since C++ is faster than python and Arduino we found additional resources relationg IMU and arduino we opted to read data using arduino and send the data serially to raspberrypi ensuring the correct delay for communication and keeping the a convininet buffer size to avoid overflow.
+
+## Obtained Results
+
 ![image](https://github.com/adnanO999/MCEII-Project/assets/88556508/1a76a74f-060b-405e-929b-6d4012c55564)
 we can clearly see how we have only one curve that is oscillating. This is the blue curve that corresponds to our angle of interest which is the angle along x axis. To be able to collect these data, we fixed the accelerometer on the chassis after we made sure that it is installed at zero angle and in the correct orientation, then we started to tilt chassis backward and forward while monitoring the actual angle change. We can tell that we have accurate measurements since we do not have angle drift and when the chassis is at rest (sample 200~325) the three angles are aligned with the horizontal axis.
 
