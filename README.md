@@ -62,7 +62,9 @@ However, since there is no research or previous literature on self-parking segwa
 
 # Reaction Wheel
 According to previous literature, we found that maximizing the kinetic energy expenditure of the flywheel is the easiest method of achieving effective control with the reaction wheel. Thus, we used a high rpm DC motor along with a 3D printed disk whose mass distribution is concentrated at the radius and weighted with added bolts.
+
 ![Annotation 2023-05-28 104814](https://github.com/adnanO999/MCEII-Project/assets/88556508/425f78ca-01ca-4a39-8256-bd27b1e86a58)
+
 ![image](https://github.com/adnanO999/MCEII-Project/assets/88556508/bb700b5f-d68b-431b-b2c7-3ccd45f44c80)
 
 # Self-Parking Fuzzy Controller
@@ -77,6 +79,13 @@ distance error = reference distance – position of chassis
 We chose reference control because we believed it would be effective since by adjusting the reference away from one, we can get constant movement in one direction which we desired
 
 ![image](https://github.com/adnanO999/MCEII-Project/assets/88556508/dc0522b1-5ac7-400a-8573-4363aee60aa7)
+
+# Demo
+
+
+https://github.com/adnanO999/MCEII-Project/assets/88556508/1426b765-1831-4dc0-810e-a5c639f75fe2
+
+
 
 
 Thank you for reading. All project details are available in the repo.
