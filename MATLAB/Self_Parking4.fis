@@ -1,0 +1,30 @@
+[System]
+Name='Self_Parking4'
+Type='mamdani'
+Version=2.0
+NumInputs=1
+NumOutputs=1
+NumRules=2
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='ditance'
+Range=[-500 500]
+NumMFs=2
+MF1='neg':'trapmf',[-511 -510 -200 200]
+MF2='pos':'trapmf',[-200 200 510 511]
+
+[Output1]
+Name='voltage'
+Range=[-2 2]
+NumMFs=2
+MF1='neg':'trapmf',[-3 -2.5 -1 1]
+MF2='pos':'trapmf',[-1 1 2.5 3]
+
+[Rules]
+1, 1 (1) : 1
+2, 2 (1) : 1
