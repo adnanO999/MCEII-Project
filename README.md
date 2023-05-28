@@ -1,5 +1,5 @@
 # MCEII-Project
-Self-Balancing/Self-Parking Robot 
+## Self-Balancing/Self-Parking Robot 
 
 This project was developed as final project for the Mechatronics System Design II. We were asked to implement a project that uses either ANN or Fuzzy Logic as controller. As result we teamed up I (Adnan Abdallah), Firas Abou Karnib and Jennifer Metri. The work was devided into tasks and we collaborated all together to finalize the project and make it work. 
 
